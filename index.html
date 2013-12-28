@@ -1,0 +1,53 @@
+<!doctype html>
+<html>
+	<head>
+		<script>
+			window.addEventListener('frapp.init', function() {
+				document.getElementById('frappReady').style.display = '';
+			});
+		</script>
+		<style>
+			html, body {
+				height: 100%;
+				margin: 0;
+				padding: 0;
+			}
+
+			body {
+				background: linear-gradient(to bottom, #eee 0%, #aaa 100%);
+				font-family: "HelveticaNeue-Light", "Helvetica Neue Light", "Helvetica Neue", Helvetica, Arial, "Lucida Grande", sans-serif;
+				font-weight: 300;
+			}
+
+			#frappReady {
+				position: absolute;
+				top: 50%;
+				left: 50%;
+				width: 300px;
+				height: 150px;
+				padding: 10px 20px;
+				margin: -85px 0 0 -170px;
+				background: #fff;
+				border-radius: 10px;
+				text-align: center;
+			}
+
+			h2 {
+				margin-bottom: 10px;
+			}
+
+			p.muted {
+				color: #999;
+			}
+		</style>
+	</head>
+	<body>
+		<div id="frappReady" style="display:none">
+			<h2>It Works!</h2>
+			<p class="muted">(Right click any window to edit it's source)</p>
+			<p>
+				<a href="#" onclick="FRAPP.close()">&laquo; Go back to the FrappsMenu</a>
+			</p>
+		</div>
+	</body>
+</html>
