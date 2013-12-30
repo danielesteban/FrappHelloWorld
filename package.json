@@ -1,6 +1,7 @@
 {
 	"name" : "FrappHelloWorld",
 	"version" : "0.0.1",
+	"description" : "A hello-world Frapp. Just the basic template.",
 	"author" : "Daniel Esteban Nombela <dani@hellacoders.com>",
 	"repository" : {
 		"type" : "git",
